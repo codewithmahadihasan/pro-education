@@ -21,6 +21,11 @@
     color: #fff;
     text-align: center;
   }
+  .button-size {
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+  }
   .width-set {
     width: 100% !important;
   }
