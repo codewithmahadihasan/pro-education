@@ -32,7 +32,7 @@
       <!-- Nav Start -->
       <nav class="navbar navbar-expand-lg bg-light container fixed-top">
         <div class="container-fluid">
-          <a href="#home" class="h1 fw-bold text-decoration-none text-dark"
+          <a href="#home" class="h2 fw-bold text-decoration-none text-dark"
             >Pro Education
           </a>
           <button
@@ -75,9 +75,10 @@
         </div>
       </nav>
       <!-- Nav End -->
+      <br /><br /><br />
 
       <!-- Carosel Start -->
-      <section class="container mt-5" id="home">
+      <section class="container h-60" id="home">
         <div
           id="carouselExampleFade"
           class="carousel slide carousel-fade"
@@ -86,75 +87,73 @@
           <div class="carousel-inner text-center">
             <div class="carousel-item active">
               <img
+                style=""
                 src="/images/cover/cover-1.jpg"
                 class="d-block w-100 rounded-3"
                 alt="..."
               />
 
-              <div class="carousel-caption d-none d-md-block">
-                <h1 class="fw-bold">
-                  <span> Get Started Digital</span> <br />
+              <div class="carousel-caption d-block">
+                <h2 class="fw-bold carosel-header-text">
+                  <span> Get Started Digital</span><br />
                   <span> Learning</span>
-                </h1>
-                <p>
+                </h2>
+                <p class="carosel-paragraph">
                   It is a long established fact that a reader will be
-                  distractedby the readable content
-                  <br />
+                  distractedby the readable content <br />
                   of a page when looking at its layout.
                 </p>
                 <button
                   type="button"
-                  class="btn btn-primary baground btn-lg mb-5 text-uppercase fw-semibold"
+                  class="btn btn-primary fw-semibold baground mb-5 text-uppercase"
                 >
                   Get Started
                 </button>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item carosel-image">
               <img
                 src="/images/cover/cover-2.jpg"
                 class="d-block w-100 rounded-3"
                 alt="..."
               />
-              <div class="carousel-caption d-none d-md-block">
-                <h1 class="fw-bold">
-                  <span> Get Started Digital </span> <br />
-                  <span>Learning</span>
-                </h1>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content
-                  <br />
+              <div class="carousel-caption d-block">
+                <h2 class="fw-bold carosel-header-text">
+                  <span> Get Started Digital</span><br />
+                  <span> Learning</span>
+                </h2>
+                <p class="carosel-paragraph">
+                  It is a long established fact that a reader will be
+                  distractedby the readable content <br />
                   of a page when looking at its layout.
                 </p>
                 <button
                   type="button"
-                  class="btn baground btn-lg mb-5 text-uppercase fw-semibold"
+                  class="btn btn-primary fw-semibold baground mb-5 text-uppercase"
                 >
                   Get Started
                 </button>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item carosel-image">
               <img
                 src="/images/cover/cover-3.jpg"
                 class="d-block w-100 rounded-3"
                 alt="..."
               />
-              <div class="carousel-caption d-none d-md-block">
-                <h1 class="fw-bold">
-                  <span> Get Started Digital </span> <br />
-                  <span>Learning</span>
-                </h1>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content
-                  <br />
+              <div class="carousel-caption d-block">
+                <h2 class="fw-bold carosel-header-text">
+                  <span> Get Started Digital</span><br />
+                  <span> Learning</span>
+                </h2>
+                <p class="carosel-paragraph">
+                  It is a long established fact that a reader will be
+                  distractedby the readable content <br />
                   of a page when looking at its layout.
                 </p>
                 <button
                   type="button"
-                  class="btn baground btn-lg mb-5 text-uppercase fw-semibold"
+                  class="btn btn-primary fw-semibold baground mb-5 text-uppercase"
                 >
                   Get Started
                 </button>
@@ -186,10 +185,10 @@
     <main>
       <!-- Couse Header Sart -->
       <section class="text-center mt-5" id="Courses">
-        <h1 class="fw-semibold">
+        <h2 class="fw-semibold">
           <span> Discover Our Popular</span> <br />
           <span>Courses</span>
-        </h1>
+        </h2>
         <p class="mt-1">
           <span
             >It is a long established fact that a reader will be distracted by
@@ -203,125 +202,119 @@
 
       <!-- Course Box Model Start  -->
       <section class="container my-5">
-        <div class="row-cols-2 row gap-5 justify-content-center">
-          <div
-            class="d-flex align-items-center border border-2 justify-content-between rounded-3 ps-0 col-5"
-          >
-            <div>
-              <img
-                src="/images/course/course-1.png"
-                style="width: 200px; height: 200px"
-                alt=""
-              />
-            </div>
-
-            <div class="ms-4">
-              <h5 class="fw-semibold">Fundamental Of UI/UX Design</h5>
-              <p>
-                Some quick example text to build on the card title and make up
-                the bulk of the card.
-              </p>
-              <h5 class="fw-semibold text-color">Price : 20$</h5>
-            </div>
-          </div>
-          <div
-            class="d-flex align-items-center border border-2 justify-content-between rounded-3 ps-0 col-5"
-          >
-            <div>
-              <img
-                src="/images/course/course-2.png"
-                style="width: 200px; height: 200px"
-                alt=""
-              />
-            </div>
-
-            <div class="ms-4">
-              <h5 class="fw-semibold">Javascript Basic to advanced</h5>
-              <p>
-                Some quick example text to build on the card title and make up
-                the bulk of the card.
-              </p>
-              <h5 class="fw-semibold text-color">Price : 20$</h5>
+        <div class="row gap-5 justify-content-around">
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="row border border-3 rounded-3 p-0">
+              <div class="col-lg-4 col-md-4 col-12 p-0">
+                <img class="w-100" src="/images/course/course-1.png" alt="" />
+              </div>
+              <div
+                class="col-lg-8 col-md-8 col-12 p-3 text-center text-lg-start text-md-start d-flex align-items-center"
+              >
+                <div>
+                  <h5 class="fw-semibold">Fundamental Of UI/UX Design</h5>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card.
+                  </p>
+                  <h5 class="fw-semibold text-color">Price : 20$</h5>
+                </div>
+              </div>
             </div>
           </div>
-          <div
-            class="d-flex align-items-center border border-2 justify-content-between rounded-3 ps-0 col-5"
-          >
-            <div>
-              <img
-                src="/images/course/course-3.png"
-                style="width: 200px; height: 200px"
-                alt=""
-              />
-            </div>
-
-            <div class="ms-4">
-              <h5 class="fw-semibold">Fullstack Web Development</h5>
-              <p>
-                Some quick example text to build on the card title and make up
-                the bulk of the card.
-              </p>
-              <h5 class="fw-semibold text-color">Price : 20$</h5>
-            </div>
-          </div>
-          <div
-            class="d-flex align-items-center border border-2 justify-content-between rounded-3 ps-0 col-5"
-          >
-            <div>
-              <img
-                src="/images/course/course-4.png"
-                style="width: 200px; height: 200px"
-                alt=""
-              />
-            </div>
-
-            <div class="ms-4">
-              <h5 class="fw-semibold">Digital Marketing</h5>
-              <p>
-                Some quick example text to build on the card title and make up
-                the bulk of the card.
-              </p>
-              <h5 class="fw-semibold text-color">Price : 20$</h5>
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="row border border-3 rounded-3 p-0">
+              <div class="col-lg-4 col-md-4 col-12 p-0">
+                <img class="w-100" src="/images/course/course-2.png" alt="" />
+              </div>
+              <div
+                class="col-lg-8 col-md-8 col-12 p-3 text-center text-lg-start text-md-start d-flex align-items-center"
+              >
+                <div>
+                  <h5 class="fw-semibold">Javascript Basic to advanced</h5>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card.
+                  </p>
+                  <h5 class="fw-semibold text-color">Price : 20$</h5>
+                </div>
+              </div>
             </div>
           </div>
-          <div
-            class="d-flex align-items-center border border-2 justify-content-between rounded-3 ps-0 col-5"
-          >
-            <div>
-              <img
-                src="/images/course/course-5.png"
-                style="width: 200px; height: 200px"
-                alt=""
-              />
-            </div>
-
-            <div class="ms-4">
-              <h5 class="fw-semibold">Photography Basic Rules</h5>
-              <p>
-                Some quick example text to build on the card title and make up
-                the bulk of the card.
-              </p>
-              <h5 class="fw-semibold text-color">Price : 20$</h5>
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="row border border-3 rounded-3 p-0">
+              <div class="col-lg-4 col-md-4 col-12 p-0">
+                <img class="w-100" src="/images/course/course-3.png" alt="" />
+              </div>
+              <div
+                class="col-lg-8 col-md-8 col-12 p-3 text-center text-lg-start text-md-start d-flex align-items-center"
+              >
+                <div>
+                  <h5 class="fw-semibold">Fullstack Web Development</h5>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card.
+                  </p>
+                  <h5 class="fw-semibold text-color">Price : 20$</h5>
+                </div>
+              </div>
             </div>
           </div>
-          <div
-            class="d-flex align-items-center border border-2 justify-content-between rounded-3 ps-0 col-5"
-          >
-            <div>
-              <img
-                src="/images/course/course-6.png"
-                style="width: 200px; height: 200px"
-                alt=""
-              />
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="row border border-3 rounded-3 p-0">
+              <div class="col-lg-4 col-md-4 col-12 p-0">
+                <img class="w-100" src="/images/course/course-4.png" alt="" />
+              </div>
+              <div
+                class="col-lg-8 col-md-8 col-12 p-3 text-center text-lg-start text-md-start d-flex align-items-center"
+              >
+                <div>
+                  <h5 class="fw-semibold">Digital Marketing</h5>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card.
+                  </p>
+                  <h5 class="fw-semibold text-color">Price : 20$</h5>
+                </div>
+              </div>
             </div>
-
-            <div class="ms-4">
-              <h5 class="fw-semibold">Motion Graphics</h5>
-              <p>
-                Some quick example text to build on the card title and make up
-                the bulk of the card.
-              </p>
-              <h5 class="fw-semibold text-color">Price : 20$</h5>
+          </div>
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="row border border-3 rounded-3 p-0">
+              <div class="col-lg-4 col-md-4 col-12 p-0">
+                <img class="w-100" src="/images/course/course-5.png" alt="" />
+              </div>
+              <div
+                class="col-lg-8 col-md-8 col-12 p-3 text-center text-lg-start text-md-start d-flex align-items-center"
+              >
+                <div>
+                  <h5 class="fw-semibold">Photography Basic Rules</h5>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card.
+                  </p>
+                  <h5 class="fw-semibold text-color">Price : 20$</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-12 col-12">
+            <div class="row border border-3 rounded-3 p-0">
+              <div class="col-lg-4 col-md-4 col-12 p-0">
+                <img class="w-100" src="/images/course/course-6.png" alt="" />
+              </div>
+              <div
+                class="col-lg-8 col-md-8 col-12 p-3 text-center text-lg-start text-md-start d-flex align-items-center"
+              >
+                <div>
+                  <h5 class="fw-semibold">Motion Graphics</h5>
+                  <p>
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card.
+                  </p>
+                  <h5 class="fw-semibold text-color">Price : 20$</h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -336,10 +329,10 @@
       <!-- Register Section Start -->
       <section class="container my-5" id="Register">
         <div
-          class="d-flex justify-content-between align-items-center p-5 baground rounded-3"
+          class="d-lg-flex justify-content-between align-items-center p-5 baground rounded-3"
         >
-          <div class="col-7 text-light">
-            <h1 class="fw-bold">Ready to join?</h1>
+          <div class="col-lg-7 col-12 text-light">
+            <h2 class="fw-bold">Ready to join?</h2>
             <p>
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.
@@ -368,7 +361,7 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">
-                      Modal title
+                      Register Here
                     </h5>
                     <button
                       type="button"
@@ -425,9 +418,9 @@
       <!-- Register Section End -->
 
       <!-- Ask Question Start -->
-      <section class="container p-5 col-7 my-5" id="Success">
+      <section class="container p-5 col-lg-7 col-12 mt-5" id="Success">
         <div class="text-center my-5">
-          <h1 class="fw-bold">Frequently Asked Questions</h1>
+          <h2 class="fw-bold">Frequently Asked Questions</h2>
           <p class="col-8 m-auto">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
@@ -555,7 +548,7 @@
 
       <!-- Brand icon Start -->
       <section class="container p-5" id="Deals">
-        <div>
+        <div class="d-lg-block d-md-none d-none">
           <h2 class="text-center fw-semibold my-5">
             Trusted by over 800+ companies
           </h2>
@@ -583,12 +576,12 @@
       </section>
       <!-- Brand icon End -->
     </main>
-    <footer class="text-center bg-dark text-light py-5">
-      <h2>Pro Education</h2>
+    <footer class="text-center bg-dark text-light p-5">
+      <h2 class="fw-semibold">Pro Education</h2>
       <p>
         <small
-          >Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</small
-        >
+          >Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman
+        </small>
       </p>
       <small>
         <a
@@ -605,7 +598,7 @@
           >Terms of use</a
         >
       </small>
-      <p class="h1 m-3">
+      <p class="h2 m-3">
         <a
           class="text-decoration-none text-light m-3"
           target="_blank"
